@@ -59,5 +59,12 @@
     "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
     "createdAt": "2025-07-24T07:16:14.953Z",
     "role": "facilitator"
+  },
+  {
+    "id": "1753687124676",
+    "username": "Yaxuan",
+    "email": "S_Yoon96@hotmail.com",
+    "passwordHash": "$2b$10$/L4yFkCkfgKiuBdEDDSdRexhC46Vp2L3sH39ybWv3YuHS6bpovvzW",
+    "createdAt": "2025-07-28T07:18:44.676Z"
   }
 ]
