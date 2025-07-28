@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1753341374953",
+    "username": "Yaxuan",
+    "email": "yaxuan.yin@wisc.edu",
+    "passwordHash": "$2b$10$hl803uLoZsbrpjidZBfci.oNg5UVHNB.Ptu5N8xDT0yKDXYko90bS",
+    "createdAt": "2025-07-24T07:16:14.953Z",
+    "role": "facilitator",
+    "school": "University of Wisconsin",
+    "country": "United States",
+    "city": "Madison",
+    "avatar": "administrator",
+    "updatedAt": "2025-07-27T01:13:58.515Z"
+  },
+  {
+    "id": "1753341374954",
+    "username": "Collin Pitts",
+    "email": "cjpitts3@wisc.edu",
+    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "createdAt": "2025-07-24T07:16:14.953Z",
+    "role": "facilitator"
+  },
+  {
+    "id": "1753341374955",
+    "username": "Devansh Saxena",
+    "email": "devansh.saxena@wisc.edu",
+    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "createdAt": "2025-07-24T07:16:14.953Z",
+    "role": "facilitator"
+  },
+  {
+    "id": "1753341374956",
+    "username": "Kaycie Barron",
+    "email": "kayciedb10@gmail.com",
+    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "createdAt": "2025-07-24T07:16:14.953Z",
+    "role": "facilitator"
+  },
+  {
+    "id": "1753341374957",
+    "username": "Nate Smith",
+    "email": "nsmith63@wisc.edu",
+    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "createdAt": "2025-07-24T07:16:14.953Z",
+    "role": "facilitator"
+  },
+  {
+    "id": "1753341374958",
+    "username": "Sandra Taylor-marshall",
+    "email": "taylormarsha@wisc.edu",
+    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "createdAt": "2025-07-24T07:16:14.953Z",
+    "role": "facilitator"
+  },
+  {
+    "id": "1753341374959",
+    "username": "SHAMYA KARUMBAIAH",
+    "email": "shamya.karumbaiah@wisc.edu",
+    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "createdAt": "2025-07-24T07:16:14.953Z",
+    "role": "facilitator"
+  }
+]

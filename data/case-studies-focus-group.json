@@ -1,0 +1,522 @@
+[
+  {
+    "conceptCard": {
+      "title": "AI for Classroom Management: Using AI to assist with classroom management, such as monitoring student engagement, automating attendance, or flagging disruptions.",
+      "description": "This case explores the use of AI-powered tools to help teachers manage classrooms more efficiently, including real-time engagement tracking, automated attendance, and early warning for disruptions. The goal is to support teachers while ensuring student privacy and fairness.",
+      "payer": "School District or Educational Institution funding the AI system for classroom management and teacher support.",
+      "endUser": "Teachers and classroom staff who interact with the AI system daily to monitor and manage students.",
+      "servicingParty": "EdTech company or IT department responsible for deploying, maintaining, and updating the AI system.",
+      "impactedIndividuals": "Students whose engagement, attendance, and behavior are monitored by the AI system, and their parents/guardians.",
+      "doAct": "Automatically record attendance, flag disengaged students, and alert teachers to possible disruptions in real time.",
+      "inferReason": "Analyze engagement data to infer which students may need additional support or intervention.",
+      "data1": "Student engagement metrics (e.g., eye contact, participation, device usage).",
+      "data2": "Attendance records and historical classroom behavior data.",
+      "data3": "Teacher notes and feedback on student participation and classroom climate.",
+      "data4": "Demographic information and learning profiles for each student."
+    },
+    "cases": [
+      {
+        "summary": "test group case 1",
+        "subject": "test group case 1",
+        "grade": "",
+        "date": "2025-07-27",
+        "caseText": "test group case 1",
+        "values": [
+          {
+            "value": "Transparency",
+            "definition": "Making AI systems and their decision-making processes understandable and explainable to users and stakeholders."
+          },
+          {
+            "value": "new value 1",
+            "definition": "new value 1"
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      },
+      {
+        "summary": "test group case 2",
+        "subject": "test group case 2",
+        "grade": "",
+        "date": "2025-07-27",
+        "caseText": "test group case 2",
+        "values": [
+          {
+            "value": "new value 1",
+            "definition": "new value 1"
+          },
+          {
+            "value": "new value 2",
+            "definition": "new value 2"
+          },
+          {
+            "value": "Transparency",
+            "definition": "Making AI systems and their decision-making processes understandable and explainable to users and stakeholders."
+          },
+          {
+            "value": "Trust",
+            "definition": "Building confidence in AI systems through reliable performance, ethical design, and transparent communication."
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      }
+    ],
+    "username": "Yaxuan",
+    "email": "yaxuan.yin@wisc.edu",
+    "submittedAt": "2025-07-28T04:04:33.470Z",
+    "status": "pending",
+    "group": "10"
+  },
+  {
+    "conceptCard": {
+      "title": "AI for Classroom Management: Using AI to assist with classroom management, such as monitoring student engagement, automating attendance, or flagging disruptions.",
+      "description": "This case explores the use of AI-powered tools to help teachers manage classrooms more efficiently, including real-time engagement tracking, automated attendance, and early warning for disruptions. The goal is to support teachers while ensuring student privacy and fairness.",
+      "payer": "School District or Educational Institution funding the AI system for classroom management and teacher support.",
+      "endUser": "Teachers and classroom staff who interact with the AI system daily to monitor and manage students.",
+      "servicingParty": "EdTech company or IT department responsible for deploying, maintaining, and updating the AI system.",
+      "impactedIndividuals": "Students whose engagement, attendance, and behavior are monitored by the AI system, and their parents/guardians.",
+      "doAct": "Automatically record attendance, flag disengaged students, and alert teachers to possible disruptions in real time.",
+      "inferReason": "Analyze engagement data to infer which students may need additional support or intervention.",
+      "data1": "Student engagement metrics (e.g., eye contact, participation, device usage).",
+      "data2": "Attendance records and historical classroom behavior data.",
+      "data3": "Teacher notes and feedback on student participation and classroom climate.",
+      "data4": "Demographic information and learning profiles for each student."
+    },
+    "cases": [
+      {
+        "summary": "case3",
+        "subject": "",
+        "grade": "",
+        "date": "",
+        "caseText": "case3",
+        "values": [
+          {
+            "value": "Privacy",
+            "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+          },
+          {
+            "value": "new value 2",
+            "definition": "new value 2"
+          }
+        ],
+        "tensions": [
+          {
+            "value": "Privacy vs. Transparency",
+            "definition": "Balancing the need for transparency in AI decision-making with the protection of individual privacy."
+          }
+        ],
+        "status": "pending",
+        "group": "10"
+      },
+      {
+        "summary": "case4",
+        "subject": "",
+        "grade": "",
+        "date": "",
+        "caseText": "case4",
+        "values": [
+          {
+            "value": "Privacy",
+            "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+          }
+        ],
+        "tensions": [
+          {
+            "value": "Privacy vs. Transparency",
+            "definition": "Balancing the need for transparency in AI decision-making with the protection of individual privacy."
+          }
+        ],
+        "status": "pending",
+        "group": "10"
+      }
+    ],
+    "username": "Yaxuan",
+    "email": "yaxuan.yin@wisc.edu",
+    "submittedAt": "2025-07-28T04:07:43.916Z",
+    "status": "pending",
+    "group": "10"
+  },
+  {
+    "conceptCard": {
+      "title": "AI for Classroom Management: Using AI to assist with classroom management, such as monitoring student engagement, automating attendance, or flagging disruptions.",
+      "description": "This case explores the use of AI-powered tools to help teachers manage classrooms more efficiently, including real-time engagement tracking, automated attendance, and early warning for disruptions. The goal is to support teachers while ensuring student privacy and fairness.",
+      "payer": "School District or Educational Institution funding the AI system for classroom management and teacher support.",
+      "endUser": "Teachers and classroom staff who interact with the AI system daily to monitor and manage students.",
+      "servicingParty": "EdTech company or IT department responsible for deploying, maintaining, and updating the AI system.",
+      "impactedIndividuals": "Students whose engagement, attendance, and behavior are monitored by the AI system, and their parents/guardians.",
+      "doAct": "Automatically record attendance, flag disengaged students, and alert teachers to possible disruptions in real time.",
+      "inferReason": "Analyze engagement data to infer which students may need additional support or intervention.",
+      "data1": "Student engagement metrics (e.g., eye contact, participation, device usage).",
+      "data2": "Attendance records and historical classroom behavior data.",
+      "data3": "Teacher notes and feedback on student participation and classroom climate.",
+      "data4": "Demographic information and learning profiles for each student."
+    },
+    "cases": [
+      {
+        "summary": "test group case 1",
+        "subject": "test group case 1",
+        "grade": "",
+        "date": "2025-07-27",
+        "caseText": "test group case 1",
+        "values": [
+          {
+            "value": "Transparency",
+            "definition": "Making AI systems and their decision-making processes understandable and explainable to users and stakeholders."
+          },
+          {
+            "value": "new value 1",
+            "definition": "new value 1"
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      },
+      {
+        "summary": "test group case 2",
+        "subject": "test group case 2",
+        "grade": "",
+        "date": "2025-07-27",
+        "caseText": "test group case 2",
+        "values": [
+          {
+            "value": "new value 1",
+            "definition": "new value 1"
+          },
+          {
+            "value": "new value 2",
+            "definition": "new value 2"
+          },
+          {
+            "value": "Transparency",
+            "definition": "Making AI systems and their decision-making processes understandable and explainable to users and stakeholders."
+          },
+          {
+            "value": "Trust",
+            "definition": "Building confidence in AI systems through reliable performance, ethical design, and transparent communication."
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      }
+    ],
+    "username": "Yaxuan",
+    "email": "yaxuan.yin@wisc.edu",
+    "submittedAt": "2025-07-28T04:09:03.635Z",
+    "status": "pending",
+    "group": "10",
+    "summary": "test group case 1",
+    "subject": "test group case 1",
+    "grade": "",
+    "date": "2025-07-27",
+    "caseText": "test group case 1",
+    "values": [
+      {
+        "value": "Transparency",
+        "definition": "Making AI systems and their decision-making processes understandable and explainable to users and stakeholders."
+      },
+      {
+        "value": "new value 1",
+        "definition": "new value 1"
+      }
+    ],
+    "tensions": [],
+    "isEditedVersion": true,
+    "originalSubmissionId": "Yaxuan|yaxuan.yin@wisc.edu|2025-07-28T04:04:33.470Z",
+    "editedBy": "Yaxuan (yaxuan.yin@wisc.edu)",
+    "editTimestamp": "2025-07-28T04:09:03.635Z",
+    "facilitatorComment": "nnn",
+    "facilitatorCommentTimestamp": "2025-07-28T04:09:03.627Z",
+    "facilitatorCommentBy": "Yaxuan (yaxuan.yin@wisc.edu)"
+  },
+  {
+    "conceptCard": {
+      "title": "AI for Classroom Management: Using AI to assist with classroom management, such as monitoring student engagement, automating attendance, or flagging disruptions.",
+      "description": "This case explores the use of AI-powered tools to help teachers manage classrooms more efficiently, including real-time engagement tracking, automated attendance, and early warning for disruptions. The goal is to support teachers while ensuring student privacy and fairness.",
+      "payer": "School District or Educational Institution funding the AI system for classroom management and teacher support.",
+      "endUser": "Teachers and classroom staff who interact with the AI system daily to monitor and manage students.",
+      "servicingParty": "EdTech company or IT department responsible for deploying, maintaining, and updating the AI system.",
+      "impactedIndividuals": "Students whose engagement, attendance, and behavior are monitored by the AI system, and their parents/guardians.",
+      "doAct": "Automatically record attendance, flag disengaged students, and alert teachers to possible disruptions in real time.",
+      "inferReason": "Analyze engagement data to infer which students may need additional support or intervention.",
+      "data1": "Student engagement metrics (e.g., eye contact, participation, device usage).",
+      "data2": "Attendance records and historical classroom behavior data.",
+      "data3": "Teacher notes and feedback on student participation and classroom climate.",
+      "data4": "Demographic information and learning profiles for each student."
+    },
+    "cases": [
+      {
+        "summary": "case3",
+        "subject": "",
+        "grade": "",
+        "date": "",
+        "caseText": "case3",
+        "values": [
+          {
+            "value": "Privacy",
+            "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+          },
+          {
+            "value": "new value 2",
+            "definition": "new value 2"
+          }
+        ],
+        "tensions": [
+          {
+            "value": "Privacy vs. Transparency",
+            "definition": "Balancing the need for transparency in AI decision-making with the protection of individual privacy."
+          }
+        ],
+        "status": "pending",
+        "group": "10"
+      },
+      {
+        "summary": "case4",
+        "subject": "",
+        "grade": "",
+        "date": "",
+        "caseText": "case4",
+        "values": [
+          {
+            "value": "Privacy",
+            "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+          }
+        ],
+        "tensions": [
+          {
+            "value": "Privacy vs. Transparency",
+            "definition": "Balancing the need for transparency in AI decision-making with the protection of individual privacy."
+          }
+        ],
+        "status": "pending",
+        "group": "10"
+      }
+    ],
+    "username": "Yaxuan",
+    "email": "yaxuan.yin@wisc.edu",
+    "submittedAt": "2025-07-28T04:09:22.659Z",
+    "status": "pending",
+    "group": "10",
+    "summary": "case3",
+    "subject": "",
+    "grade": "",
+    "date": "",
+    "caseText": "case3",
+    "values": [
+      {
+        "value": "Privacy",
+        "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+      },
+      {
+        "value": "new value 2",
+        "definition": "new value 2"
+      }
+    ],
+    "tensions": [
+      {
+        "value": "Privacy vs. Transparency",
+        "definition": "Balancing the need for transparency in AI decision-making with the protection of individual privacy."
+      }
+    ],
+    "isEditedVersion": true,
+    "originalSubmissionId": "Yaxuan|yaxuan.yin@wisc.edu|2025-07-28T04:07:43.916Z",
+    "editedBy": "Yaxuan (yaxuan.yin@wisc.edu)",
+    "editTimestamp": "2025-07-28T04:09:22.659Z",
+    "facilitatorComment": "hhhhh",
+    "facilitatorCommentTimestamp": "2025-07-28T04:09:22.652Z",
+    "facilitatorCommentBy": "Yaxuan (yaxuan.yin@wisc.edu)"
+  },
+  {
+    "conceptCard": {
+      "title": "AI for Classroom Management: Using AI to assist with classroom management, such as monitoring student engagement, automating attendance, or flagging disruptions.",
+      "description": "This case explores the use of AI-powered tools to help teachers manage classrooms more efficiently, including real-time engagement tracking, automated attendance, and early warning for disruptions. The goal is to support teachers while ensuring student privacy and fairness.",
+      "payer": "School District or Educational Institution funding the AI system for classroom management and teacher support.",
+      "endUser": "Teachers and classroom staff who interact with the AI system daily to monitor and manage students.",
+      "servicingParty": "EdTech company or IT department responsible for deploying, maintaining, and updating the AI system.",
+      "impactedIndividuals": "Students whose engagement, attendance, and behavior are monitored by the AI system, and their parents/guardians.",
+      "doAct": "Automatically record attendance, flag disengaged students, and alert teachers to possible disruptions in real time.",
+      "inferReason": "Analyze engagement data to infer which students may need additional support or intervention.",
+      "data1": "Student engagement metrics (e.g., eye contact, participation, device usage).",
+      "data2": "Attendance records and historical classroom behavior data.",
+      "data3": "Teacher notes and feedback on student participation and classroom climate.",
+      "data4": "Demographic information and learning profiles for each student."
+    },
+    "cases": [
+      {
+        "summary": "let us test again3",
+        "subject": "let us test again3",
+        "grade": "",
+        "date": "",
+        "caseText": "let us test again3",
+        "values": [
+          {
+            "value": "Fairness",
+            "definition": "Ensuring AI systems treat all individuals and groups equitably, without bias or discrimination based on protected characteristics."
+          },
+          {
+            "value": "Privacy",
+            "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      }
+    ],
+    "username": "Yaxuan",
+    "email": "yaxuan.yin@wisc.edu",
+    "submittedAt": "2025-07-28T04:17:11.540Z",
+    "status": "pending",
+    "group": "10"
+  },
+  {
+    "conceptCard": {
+      "title": "AI for Classroom Management: Using AI to assist with classroom management, such as monitoring student engagement, automating attendance, or flagging disruptions.",
+      "description": "This case explores the use of AI-powered tools to help teachers manage classrooms more efficiently, including real-time engagement tracking, automated attendance, and early warning for disruptions. The goal is to support teachers while ensuring student privacy and fairness.",
+      "payer": "School District or Educational Institution funding the AI system for classroom management and teacher support.",
+      "endUser": "Teachers and classroom staff who interact with the AI system daily to monitor and manage students.",
+      "servicingParty": "EdTech company or IT department responsible for deploying, maintaining, and updating the AI system.",
+      "impactedIndividuals": "Students whose engagement, attendance, and behavior are monitored by the AI system, and their parents/guardians.",
+      "doAct": "Automatically record attendance, flag disengaged students, and alert teachers to possible disruptions in real time.",
+      "inferReason": "Analyze engagement data to infer which students may need additional support or intervention.",
+      "data1": "Student engagement metrics (e.g., eye contact, participation, device usage).",
+      "data2": "Attendance records and historical classroom behavior data.",
+      "data3": "Teacher notes and feedback on student participation and classroom climate.",
+      "data4": "Demographic information and learning profiles for each student."
+    },
+    "cases": [
+      {
+        "summary": "let us test again5",
+        "subject": "let us test again5",
+        "grade": "",
+        "date": "",
+        "caseText": "let us test again5",
+        "values": [
+          {
+            "value": "Fairness",
+            "definition": "Ensuring AI systems treat all individuals and groups equitably, without bias or discrimination based on protected characteristics."
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      },
+      {
+        "summary": "let us test again4",
+        "subject": "",
+        "grade": "",
+        "date": "",
+        "caseText": "let us test again4",
+        "values": [
+          {
+            "value": "Privacy",
+            "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      },
+      {
+        "summary": "let us test again3",
+        "subject": "",
+        "grade": "",
+        "date": "",
+        "caseText": "let us test again3",
+        "values": [
+          {
+            "value": "Privacy",
+            "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      }
+    ],
+    "username": "Yaxuan",
+    "email": "yaxuan.yin@wisc.edu",
+    "submittedAt": "2025-07-28T04:18:06.907Z",
+    "status": "pending",
+    "group": "10"
+  },
+  {
+    "conceptCard": {
+      "title": "AI for Classroom Management: Using AI to assist with classroom management, such as monitoring student engagement, automating attendance, or flagging disruptions.",
+      "description": "This case explores the use of AI-powered tools to help teachers manage classrooms more efficiently, including real-time engagement tracking, automated attendance, and early warning for disruptions. The goal is to support teachers while ensuring student privacy and fairness.",
+      "payer": "School District or Educational Institution funding the AI system for classroom management and teacher support.",
+      "endUser": "Teachers and classroom staff who interact with the AI system daily to monitor and manage students.",
+      "servicingParty": "EdTech company or IT department responsible for deploying, maintaining, and updating the AI system.",
+      "impactedIndividuals": "Students whose engagement, attendance, and behavior are monitored by the AI system, and their parents/guardians.",
+      "doAct": "Automatically record attendance, flag disengaged students, and alert teachers to possible disruptions in real time.",
+      "inferReason": "Analyze engagement data to infer which students may need additional support or intervention.",
+      "data1": "Student engagement metrics (e.g., eye contact, participation, device usage).",
+      "data2": "Attendance records and historical classroom behavior data.",
+      "data3": "Teacher notes and feedback on student participation and classroom climate.",
+      "data4": "Demographic information and learning profiles for each student."
+    },
+    "cases": [
+      {
+        "summary": "let us test again5",
+        "subject": "let us test again5",
+        "grade": "",
+        "date": "",
+        "caseText": "let us test again5",
+        "values": [
+          {
+            "value": "Fairness",
+            "definition": "Ensuring AI systems treat all individuals and groups equitably, without bias or discrimination based on protected characteristics."
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      },
+      {
+        "summary": "let us test again4",
+        "subject": "",
+        "grade": "",
+        "date": "",
+        "caseText": "let us test again4",
+        "values": [
+          {
+            "value": "Privacy",
+            "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      },
+      {
+        "summary": "let us test again3",
+        "subject": "",
+        "grade": "",
+        "date": "",
+        "caseText": "let us test again3",
+        "values": [
+          {
+            "value": "Privacy",
+            "definition": "Protecting individuals' personal information and ensuring data is collected, used, and stored responsibly."
+          }
+        ],
+        "tensions": [],
+        "status": "pending",
+        "group": "10"
+      }
+    ],
+    "username": "Yaxuan",
+    "email": "yaxuan.yin@wisc.edu",
+    "submittedAt": "2025-07-28T04:27:16.982Z",
+    "status": "pending",
+    "group": "10",
+    "isEditedVersion": true,
+    "originalSubmissionId": "Yaxuan|yaxuan.yin@wisc.edu|2025-07-28T04:18:06.907Z",
+    "editedBy": "Yaxuan (yaxuan.yin@wisc.edu)",
+    "editTimestamp": "2025-07-28T04:27:16.982Z"
+  }
+]
