@@ -668,6 +668,43 @@ app.get('/api/user-tension-history/:email', async (req, res) => {
   }
 });
 
+
+
+// DOWNLOAD: case-studies.json
+app.get('/download/case-studies', async (req, res) => {
+  const filePath = path.join(__dirname, 'data', 'case-studies.json');
+  res.download(filePath, 'case-studies.json', (err) => {
+    if (err) {
+      console.error('Download error:', err);
+      res.status(500).send('Could not download case-studies.json');
+    }
+  });
+});
+
+// DOWNLOAD: case-studies-focus-group.json
+app.get('/download/focus-group', async (req, res) => {
+  const filePath = path.join(__dirname, 'data', 'case-studies-focus-group.json');
+  res.download(filePath, 'case-studies-focus-group.json', (err) => {
+    if (err) {
+      console.error('Download error:', err);
+      res.status(500).send('Could not download focus group file');
+    }
+  });
+});
+
+// DOWNLOAD: users.json
+app.get('/download/users', async (req, res) => {
+  const filePath = path.join(__dirname, 'data', 'users.json');
+  res.download(filePath, 'users.json', (err) => {
+    if (err) {
+      console.error('Download error:', err);
+      res.status(500).send('Could not download users file');
+    }
+  });
+});
+
+
+
 // Start server
 async function startServer() {
   await ensureDataDir();
