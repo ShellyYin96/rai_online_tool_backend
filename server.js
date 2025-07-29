@@ -461,6 +461,36 @@ app.get('/api/auth/profile/:email', async (req, res) => {
   }
 });
 
+// Get all users endpoint (for admin purposes)
+app.get('/api/users', async (req, res) => {
+  try {
+    const users = await loadUsers();
+    
+    // Return user data without sensitive information like password hashes
+    const safeUsers = users.map(user => ({
+      id: user.id,
+      username: user.username,
+      email: user.email,
+      role: user.role || 'user',
+      school: user.school || null,
+      country: user.country || null,
+      city: user.city || null,
+      avatar: user.avatar || 'default',
+      createdAt: user.createdAt,
+      updatedAt: user.updatedAt || null
+    }));
+    
+    res.json({
+      success: true,
+      count: safeUsers.length,
+      users: safeUsers
+    });
+  } catch (error) {
+    console.error('Error getting users:', error);
+    res.status(500).json({ success: false, message: 'Failed to get users' });
+  }
+});
+
 
 // Endpoint to save edited submissions (creates new files instead of updating)
 app.post('/api/save-edited-submission', async (req, res) => {
