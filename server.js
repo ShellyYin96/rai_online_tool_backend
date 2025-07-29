@@ -14,14 +14,29 @@ const PORT = 3001;
 app.use(cors({
   origin: [
     'https://rai-online-tool.vercel.app',
+    'https://rai-online-tool.vercel.app/',
     'http://localhost:5173',
     'http://localhost:5174',
     'http://localhost:3000'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'Accept']
+  allowedHeaders: ['Content-Type', 'Authorization', 'Accept', 'Origin', 'X-Requested-With']
 }));
+
+// Additional CORS headers for preflight requests
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'https://rai-online-tool.vercel.app');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Accept, Origin, X-Requested-With');
+  res.header('Access-Control-Allow-Credentials', 'true');
+  
+  if (req.method === 'OPTIONS') {
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+});
 app.use(express.json());
 
 // Always use an absolute path for file-based storage (project-root/rai-values-react/data/case-studies.json)
@@ -85,6 +100,25 @@ async function saveFocusGroupSubmissions(submissions) {
 
 
 // API Routes
+
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  console.log('Health check request from:', req.headers.origin);
+  res.json({ 
+    success: true, 
+    message: 'Server is running',
+    timestamp: new Date().toISOString(),
+    cors: {
+      origin: req.headers.origin,
+      allowed: [
+        'https://rai-online-tool.vercel.app',
+        'http://localhost:5173',
+        'http://localhost:5174',
+        'http://localhost:3000'
+      ]
+    }
+  });
+});
 
 // GET /api/case-studies - Get all submissions or filter by user
 app.get('/api/case-studies', async (req, res) => {
@@ -319,19 +353,33 @@ app.post('/api/auth/register', async (req, res) => {
 
 // Login endpoint
 app.post('/api/auth/login', async (req, res) => {
+  console.log('Login attempt received:', { 
+    origin: req.headers.origin,
+    method: req.method,
+    body: req.body 
+  });
+  
   const { usernameOrEmail, password } = req.body;
   if (!usernameOrEmail || !password) {
+    console.log('Missing credentials');
     return res.status(400).json({ success: false, message: 'All fields required' });
   }
+  
   const users = await loadUsers();
   const user = users.find(u => u.email === usernameOrEmail || u.username === usernameOrEmail);
+  
   if (!user) {
+    console.log('User not found:', usernameOrEmail);
     return res.status(401).json({ success: false, message: 'Invalid credentials' });
   }
+  
   const match = await bcrypt.compare(password, user.passwordHash);
   if (!match) {
+    console.log('Password mismatch for user:', usernameOrEmail);
     return res.status(401).json({ success: false, message: 'Invalid credentials' });
   }
+  
+  console.log('Login successful for user:', user.username);
   res.json({ success: true, username: user.username, email: user.email, role: user.role || 'user' });
 });
 
