@@ -3,7 +3,7 @@
     "id": "1753341374953",
     "username": "Yaxuan",
     "email": "yaxuan.yin@wisc.edu",
-    "passwordHash": "$2b$10$hl803uLoZsbrpjidZBfci.oNg5UVHNB.Ptu5N8xDT0yKDXYko90bS",
+    "passwordHash": "$2b$10$f2hw.6DYeiK1GPw8r9XvOugaPutJak5P1AUDxgcQjad4Rnfz2iNVm",
     "createdAt": "2025-07-24T07:16:14.953Z",
     "role": "facilitator",
     "school": "University of Wisconsin",
@@ -14,57 +14,50 @@
   },
   {
     "id": "1753341374954",
-    "username": "Collin Pitts",
+    "username": "Collin",
     "email": "cjpitts3@wisc.edu",
-    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "passwordHash": "$2b$10$DfGx3pO/olRXc8UtrrUTzuH5VJjgP1Lehvn5CXHDSJLrU8yi8/JJu",
     "createdAt": "2025-07-24T07:16:14.953Z",
     "role": "facilitator"
   },
   {
     "id": "1753341374955",
-    "username": "Devansh Saxena",
+    "username": "Devansh",
     "email": "devansh.saxena@wisc.edu",
-    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "passwordHash": "$2b$10$T490WrV.8Vx12R3Au.ZUqe/Ksuwc/su11b5cxK5nGVA/BEV/QwZuK",
     "createdAt": "2025-07-24T07:16:14.953Z",
     "role": "facilitator"
   },
   {
     "id": "1753341374956",
-    "username": "Kaycie Barron",
+    "username": "Kaycie",
     "email": "kayciedb10@gmail.com",
-    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "passwordHash": "$2b$10$68qs/cplFwKHyuNaEOokSOoFZEaqYRekS4PaCiBe5ErA09VCTQG9i",
     "createdAt": "2025-07-24T07:16:14.953Z",
     "role": "facilitator"
   },
   {
     "id": "1753341374957",
-    "username": "Nate Smith",
+    "username": "Nate",
     "email": "nsmith63@wisc.edu",
-    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "passwordHash": "$2b$10$ybOAVM6Dw2nl8MQ/Mms0vOIRySn3hDvikO4ABFHRUCNMEqiIAZTge",
     "createdAt": "2025-07-24T07:16:14.953Z",
     "role": "facilitator"
   },
   {
     "id": "1753341374958",
-    "username": "Sandra Taylor-marshall",
+    "username": "Sandra",
     "email": "taylormarsha@wisc.edu",
-    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "passwordHash": "$2b$10$7ATCOnbJBsdKjlOxc6MYG.vCqMzBYOFhQM0PGgXZXa9w8a/tjMjuK",
     "createdAt": "2025-07-24T07:16:14.953Z",
     "role": "facilitator"
   },
   {
     "id": "1753341374959",
-    "username": "SHAMYA KARUMBAIAH",
+    "username": "Shamya",
     "email": "shamya.karumbaiah@wisc.edu",
-    "passwordHash": "$2b$10$epnopJJfy/RZS5H0Ep7OBuX9V7lL0OtgYSM0F6i4EXGCOjEtNSV5e",
+    "passwordHash": "$2b$10$nx0XV1VRHz5tTevwnHckR.PJNoiDCtSdON.Zs4qUNeffhstYJMUEG",
     "createdAt": "2025-07-24T07:16:14.953Z",
     "role": "facilitator"
-  },
-  {
-    "id": "1753687124676",
-    "username": "Yaxuan",
-    "email": "S_Yoon96@hotmail.com",
-    "passwordHash": "$2b$10$/L4yFkCkfgKiuBdEDDSdRexhC46Vp2L3sH39ybWv3YuHS6bpovvzW",
-    "createdAt": "2025-07-28T07:18:44.676Z"
   }
 ]
